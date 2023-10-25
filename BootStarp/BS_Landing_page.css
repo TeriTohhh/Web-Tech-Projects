@@ -1,0 +1,15 @@
+.landing-page>.content-section{
+    background:rgb(0,69,111);
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:url("/Indian_Cricketers/desktop-wallpaper-indian-cricket-team-player-india-cricket-team-cricket-team-cricket-in-india-indian-cricket-team-logo.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 100%;
+}
+.navbar{
+    background:linear-gradient(45deg,rgb(27,135,214),rgb(187, 41, 0));
+}

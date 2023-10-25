@@ -1,0 +1,214 @@
+*{
+    margin: 0px;
+}
+header{
+    background:linear-gradient(45deg,rgb(0, 79, 237),violet,darkblue);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header>h1{
+    color: rgb(2,68,199);
+}
+header>div>a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+header>div>a:hover{
+    text-decoration: underline;
+    font-size: large;
+    text-shadow: 3px 2px green;
+}
+#category>a{
+    text-decoration: none;
+}
+#category>a:hover{
+    font-size: larger;
+    text-decoration: underline;
+    text-transform: uppercase;   
+}
+#category{
+    background:linear-gradient(45deg,rgb(0, 79, 237),violet,darkblue);
+    margin: 0px;
+    height:15px ;
+    text-align: center;
+    padding: 5px;
+    padding-bottom: 12px;
+}
+@media (min-width:0px)  and (max-width:800px){
+    header{
+        flex-direction: column;
+    }
+} 
+#landing-page{
+    background:linear-gradient(45deg,rgb(2,68,199),rgb(27,135,214));
+    text-align: center; 
+}
+#landing-page>.content-section{
+    background:rgb(0,69,111);
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:url("/Indian_Cricketers/desktop-wallpaper-indian-cricket-team-player-india-cricket-team-cricket-team-cricket-in-india-indian-cricket-team-logo.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 80%;
+}
+#landing-page>.content-section>button{
+    background-color: orange;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px white;
+    padding: 3px;
+    margin-top: 7px;
+    width: 100px;
+}
+#landing-page>.content-section>p,h1{
+    color:white;
+    opacity: 100%;
+} 
+#bottom{
+    margin-bottom: 400px;
+}
+section{
+    text-align: center;
+    margin-top: 20px;
+}
+button{
+    margin-top: 10px;
+    border: none;
+    border-radius: 0px 10px 0px 10px;
+    background-color:rgb(2,68,199) ;
+    outline: none;
+    height: 30px;
+    box-shadow: 0px 0px 10px;
+    padding: 3px;
+}
+h2{
+    color: rgb(2,68,199);
+    height: 20px;  
+}
+p{
+    color: gray;
+    margin-top: 10px;
+}
+figure{
+    text-align: center;
+    display: inline-block;
+    margin: 5px;     
+}
+#playing>#playing11>figure>img{
+    margin-top: 10px;
+    border-radius: 0px 15px;
+    box-shadow: 0 0 10px rgb(2,68,199);
+    display: inline-block;
+    height: 150px;
+    width: 200px;
+}
+#playing>#playing11>figure>img:hover{
+    transition: all 1s linear 0s;
+    cursor: pointer;
+}
+figcaption{
+    margin: 5px;
+}
+#top-order>figure>img{
+    margin-top: 10px;
+    border-radius: 0px 15px;
+    box-shadow: 0 0 10px rgb(2,68,199);
+    display: inline-block;
+    height: 150px;
+    width: 200px;
+}
+button:hover{
+    cursor: pointer;
+    color:rgb(4, 46, 131) ;
+    background:linear-gradient(45deg,orange,white,green);
+    font-size: large;
+}
+
+.news-container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+.news-article {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+.news-article img {
+    max-width:675px;
+}
+.news-headline {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.news-content {
+    font-size: 16px;
+}
+h2{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+hr{
+    background-color:rgb(4, 46, 131) ;
+}
+.item-1{
+    display: inline;
+    justify-content:space-between;
+}
+.item-4{
+    display: inline;
+    justify-content:space-between;
+}
+.item-7{
+    display: inline;
+    justify-content:space-between;
+}
+.item-1{
+    display: inline;
+    justify-content:space-between;
+}
+#archive>.box>figure>img{
+    height: 330px;
+    width: 440px;
+}
+.box{
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+}
+footer{
+    margin-top: 250px;
+    text-align: center;
+    font-size: large;
+    padding: 30px; 
+}
+footer>a{
+    text-decoration: none;
+    background:linear-gradient(45deg,rgb(2,68,199),rgb(27,135,214));
+    display: block;
+    width: 250px;
+    margin-left:110px;
+    text-align: center;  
+}
+footer>a:hover{
+    text-decoration: underline;
+    font-size: large;
+    color: red ;
+}
+h3{
+    margin-bottom: 15px;
+}
+
+@media (min-width:700px){
+    footer>a{
+        margin-left: 550px;
+    }
+}

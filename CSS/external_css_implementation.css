@@ -1,0 +1,15 @@
+#header{
+    color: red;
+    font-family:cursive;
+    text-align: center;
+}
+#para{
+    text-decoration: dotted;
+    color: blue;
+}
+#hero{
+    font-size: 20px;
+    color:brown;
+    background-color: rgb(189, 20, 178);
+
+}

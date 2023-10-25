@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    
+    <title> CSs position with transform ans transform</title>
+    <style>
+       *{
+            margin: 0px;
+        }
+        div{
+            background-color: blue;
+            width: 300px;
+            height: 200px;
+            margin-left: 100px;
+            margin-top: 200px;
+            position: relative;
+            border-radius: 20px;
+            color: white;
+            text-align: center;
+            box-shadow: 0 0 10px black;
+            overflow: hidden;
+            display: inline-block;
+        }
+        div>img{
+            border-radius: inherit;
+            width: inherit;
+            height: inherit;
+            filter: grayscale(100%);
+            transition: all 1s linear 1s;
+
+        }
+        div:hover{
+            cursor: pointer;
+        }
+        div>#content{
+            position: absolute;
+            top: -200px;
+            left: -100px;
+            background-color:rgba(0, 0, 0, 0.4) ;
+            transform: all 1s linear 1s;
+            transform: translateY(100%);
+            transition: all 1s linear 1s;
+        }
+        div:hover>#content{
+            transform:translateY(0%);
+        }
+        div:hover>img
+        {
+            filter: grayscale(0%);  
+        }
+
+    </style>
+</head>
+<body>
+    <div id="parent" >
+        <img src="/src/valo/3.jpg" alt=" NO Image Found">
+
+        <div id="content">
+            <h2>VALORANT:-</h2>
+            <p>VALORANT is a character-based 5v5 tactical shooter set on the global stage. Outwit, outplay, and outshine your competition with tactical abilities, precise ...
+                In stock</p>
+                <button >Know More</button>
+        </div>
+    </div>
+</body>
+</html>

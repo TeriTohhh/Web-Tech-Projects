@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS POSITIONS</title>
+	<style>
+		*
+		{
+			margin:0px;
+		}
+		div
+		{
+			padding:10px 15px;
+			text-align:center;
+			color:white;
+		}
+		#parent-three
+		{
+			background:linear-gradient(45deg,orange,blue,green);
+			width:500px;
+			height:400px;
+/*			position:relative;*/
+		}
+		#parent-two
+		{
+			background:linear-gradient(45deg,darkslategrey,violet);
+			width:400px;
+			height:300px;
+/*			position:relative;*/
+		}
+		#parent-one
+		{
+			background:linear-gradient(45deg,yellow,red);
+			width:300px;
+			height:200px;
+			position:relative;
+		}
+		#child
+		{
+			background:black;
+			width:200px;
+			height:100px;
+
+			position:absolute;
+			top:10px;
+			left:20px;
+		}
+	</style>
+</head>
+<body>
+	<div id="parent-three">
+		<div id="parent-two">
+			<div id="parent-one">
+				<div id="child">
+					<p>Absolute</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

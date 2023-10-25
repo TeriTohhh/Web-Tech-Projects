@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Css Find Px</title>
+</head>
+<body>
+	<h1>Screen Size:<span id="display">0</span>PX</h1>
+
+<!-- Script Code -->
+<script>
+	window.addEventListener('resize',function()
+	{
+		let screenSize=window.innerWidth;
+
+		document.getElementById('display').innerText=screenSize;
+	})
+</script>
+</body>
+</html>

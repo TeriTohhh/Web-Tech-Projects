@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+    
+    <title>Css position </title>
+    <style>
+        div{
+            width: 300px;
+            height: 200px;
+            margin-left: 150px;
+            margin-top: 200px;
+            position: relative;
+            border-radius: 20px red;
+            display: inline-block;
+            box-shadow: 0 0 10px black;
+
+
+        }
+        div>img{
+            width: inherit;
+            height: inherit;
+            border-radius: inherit;
+            filter: grayscale(100%);
+            transition: all 1s linear 3s;
+            /* transform: scale(1.5,1.5); */
+
+
+        }
+        div:hover>img
+        {
+            filter: grayscale(0%);  
+        }
+        div>#left{
+            background-color: blue;
+            position:absolute;
+            top: 0px;
+            left: 0px;
+            margin: 0px;
+            border: none;
+            width: 50%;
+            transform-origin: left;
+            transition: all 1s linear 0s;
+        }
+        div>#right{
+            background-color: yellow;
+            position:absolute;
+            top: 0px;
+            left: 0px;
+            margin: 0px;
+            border: none;
+            width: 50%;
+            transform-origin: right;
+            transition: all 1s linear 0s;
+            
+        }
+        div:hover{
+            cursor: pointer;
+
+        }
+        div:hover>#left{
+            transform: scale(1.5,1.5);
+
+        }
+        div:hover>#right{
+            transform: scale(1.5,1.5);
+
+        }
+
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <img src="/src/online games.jpg" alt="No image found">
+
+        <div id="left"></div>
+        <div id="right"></div>
+    </div>
+</body>
+</html>

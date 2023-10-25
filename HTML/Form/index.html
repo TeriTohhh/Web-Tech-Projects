@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    
+    <title>Html forms</title>
+    <style>
+        div{
+            background-color: coral;
+            padding: 10px;
+            width: 350px;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <form onsubmit="Validate()" method="post" action="https://www.google.com/">
+            <fieldset>
+                <legend>Login</legend>
+                <table>
+                    <tr>
+                        <td><label>Username</label></td>
+                        <td><input type="text"placeholder="Enter the Username" minlength="6" maxlength="15" required/></td>
+                    </tr>
+                    <tr>
+                        <td><label>Password</label></td>
+                        <td><input type="password" placeholder="Enter the Password" minlength="6" maxlength="15" required/></td>
+                    </tr>
+                    <tr>
+                        <td align="center" colspan="2">
+                            <input type="submit" />
+                            <input type="reset" />
+                            
+                        </td>
+                        
+                        
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </div>
+
+    
+</body>
+</html>

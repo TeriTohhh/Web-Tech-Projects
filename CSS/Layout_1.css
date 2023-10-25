@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+}
+header>h2{
+    background:linear-gradient(45deg,orange,white,green);
+    padding-left: 20px;
+    padding: 8px;
+}
+header{
+    
+}
+nav{
+    text-align: center;
+    background:linear-gradient(45deg,red,darkslategray);
+    
+}
+nav>a:hover{
+    text-decoration: underline;
+}
+nav>a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+}
+aside{
+    color: white;
+    width: 200px;
+    background:linear-gradient(45deg,orange,white,green);
+    height: 400px;
+    text-align: center;
+    float: left;
+}
+aside>a{
+    text-decoration: none;padding:15px;
+    display: block;
+    color: white;
+    
+}
+aside>a:hover{
+    text-decoration: underline;
+}
+section{
+    background:linear-gradient(45deg,blue,deeppink);
+    height: 400px;
+}
+section>p{
+    border: 1px solid white;
+
+}
+footer{
+    text-align: center;
+    background:linear-gradient(45deg,orange,white,green);
+}

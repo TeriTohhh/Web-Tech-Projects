@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Css Combinators</title>
+	<style>
+		h1~h3
+		{
+			color:red;
+		}
+	</style>
+</head>
+<body>
+	<div id="header">
+		<h1>Header One
+			<span>Header Span</span>
+		</h1>
+		<h2>Header Two</h2>
+		<h3>Header Three</h3>
+	</div>
+
+	<div id="main-section">
+		<h1>Header One</h1>
+		<h2>Header Two</h2>
+	</div>
+
+	<div id="footer">
+		<h1>Header One
+			<span>Header Span</span>
+		</h1>
+		<h2>Header Two</h2>
+		<h3>Header Three</h3>
+	</div>
+</body>
+</html>

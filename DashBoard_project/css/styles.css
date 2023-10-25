@@ -1,0 +1,29 @@
+body 
+{
+
+}
+.fa 
+{
+	padding-right:5px;
+}
+.abc
+{
+	margin-left:auto;
+}
+.dropdown-item
+{
+	margin-top:10px;
+}
+.dropdown-item:hover
+{
+	background-color:black!important;
+	color:white!important;
+}
+.active 
+{
+	box-shadow:0 0 10px whitesmoke!important;
+}
+.text-muted
+{
+	color:rgb(154,139,137)!important;
+}

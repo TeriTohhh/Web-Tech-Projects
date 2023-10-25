@@ -1,0 +1,96 @@
+<html lang="en">
+<head>
+    
+    <title>Html Form 2 HW</title>
+    <style>
+        html {
+           height: 100%;
+           display: table;
+           margin: auto;
+        }
+
+        body {
+            height: 100%;
+           display: table-cell;
+           vertical-align: middle;
+        }
+        #login input{
+            padding: 0.5em;
+  -webkit-appearance: none;
+  outline: 0.02em solid grey;
+  outline-offset: 0.01em;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Novel Services Login </h1>
+    <div>
+        <form action="">
+            <table>
+                <tr>
+                    <td><label for="">Username</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Password</label></td>
+                    <td><input type="password"></td>
+                </tr>
+                <tr>
+                    <td><label for="">City of Employment</label></td>
+                    <td><input type="text"></td>
+                </tr>
+
+                <tr>
+                    <td><label for=""> Web Server </label></td>
+                    <td>
+                        <select name="" id="">
+                            <option value="">--Choose a Server--</option>
+                            <option value="">Apache</option>
+                            <option value=""> IIS </option>
+                            <option value=""> LiteSpeed </option>
+                            <option value=""> Nginx </option>
+
+                        </select>
+                    </td>
+                </tr>
+                <br>
+                <tr>
+                    <td><label for="">Please Specify 
+                        <br>Your Role</label></td>
+                        <td>
+                            <br>
+                            <input type="radio" name="role">Engineer</label> <br>
+                            <input type="radio" name="role">Admin</label>
+                            <br>
+                            <input type="radio" name="role">Manager</label>
+                            <br>
+                            <input type="radio" name="role">Guest</label> </td>
+                </tr>
+                <tr>
+                    <td>   <br><br>
+
+                        <label for=""> Single Sign-on <br>to the following
+                        </label></td>
+
+                    <td id="login"> <br><br>
+                        <input type="radio" name="role">Mail</label> <br>
+                        <input type="radio" name="role">Payroll</label> <br>
+                        <input type="radio" name="role">Self- Service </label> <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" colspan="2">
+                        <br>
+                        <input type="submit" value="Login"/>
+                        <input type="reset" />
+                        
+                    </td>
+            </table>
+        </form>
+    </div>
+    
+</body>
+</html>

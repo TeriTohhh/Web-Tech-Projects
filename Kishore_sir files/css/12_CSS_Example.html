@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style>
+		div
+		{
+			box-shadow:0 0 10px black;
+			width:300px;
+			height:200px;
+			margin:100px auto;
+			position:relative;
+/*			overflow:hidden;*/
+		}
+		div:hover
+		{
+			cursor:pointer;
+		}
+		div>img
+		{
+			width:inherit;
+			height:inherit;
+		}
+		div>#child-one
+		{
+			background-color:red;
+			position:absolute;
+			top:0px;
+			left:0px;
+			margin:0px;
+			transition:all 1s linear 3s;
+		}
+		div:hover>#child-one
+		{
+			transform:translateY(-100%);
+		}
+		div>#child-two
+		{
+			background-color:black;
+			position:absolute;
+			top:0px;
+			left:0px;
+			margin:0px;
+			transition:all 1s linear 2s;
+		}
+		div:hover>#child-two
+		{
+			transform:translateX(100%);
+		}
+		div>#child-three
+		{
+			background-color:green;
+			position:absolute;
+			top:0px;
+			left:0px;
+			margin:0px;
+			transition:all 1s linear 1s;
+		}
+		div:hover>#child-three
+		{
+			transform:translateY(100%);
+		}
+		div>#child-four
+		{
+			background-color:cyan;
+			position:absolute;
+			top:0px;
+			left:0px;
+			margin:0px;
+			transition:all 1s linear 0s;
+		}
+		div:hover>#child-four
+		{
+			transform:translateX(-100%);
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<img src="../Heros/JAVASCRIPT/a3.avif" alt="">
+
+		<div id="child-one"></div>
+		<div id="child-two"></div>
+		<div id="child-three"></div>
+		<div id="child-four"></div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,69 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#box{
+    height: 150px;
+    background-color: lightseagreen;
+    width: 300px;
+    position: absolute;
+
+    animation-name: run;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    overflow: hidden;
+    animation-iteration-count: infinite;
+    
+
+    
+}
+/* div:hover{
+    animation-name: run;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    overflow: hidden;
+    cursor: pointer;
+    animation-iteration-count: infinite;
+    box-shadow: 0 0 15px green;
+} */
+
+/* img{
+    animation-name: run;
+    animation-duration: 5s;
+    animation-delay: 5s;
+} */
+div>img{
+    height: inherit;
+    width: inherit;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@keyframes dance {
+    from{
+        left: 0;
+    }
+    to{
+        left:60%;
+    }
+}
+
+@keyframes run {
+    from{
+        left:0;
+        background-color: cyan;
+        border-radius: 10px;
+    }
+    to{
+        left:80%;
+        top:40%;
+        border: 2px solid red;
+        background-color: blueviolet;
+        box-shadow: 0 0 15px green;
+        border-radius: 20px;
+    }
+    
+}
